@@ -23,4 +23,21 @@ output
 "gnirtS"
 
 condision: without using inbuild reverse() 
+
+#################
+
+separate the number 
+
+intput 
+1234
+output
+[1,2,3,4]
+
+intput
+56
+output
+[5,6]
+
+hint - use %.
+
 """
