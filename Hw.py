@@ -24,7 +24,7 @@ output
 
 condision: without using inbuild reverse() 
 
-#################
+###################
 
 separate the number 
 
@@ -40,4 +40,30 @@ output
 
 hint - use %.
 
+#####################
+
+1)Given a string count the number of occurrence 
+2)print from accending order of no. of occurrence.
+3)print letters in accending orders too.
+
+input
+"occurrence"
+output
+c - 3
+e - 2
+r - 2
+n - 1
+o - 1
+u - 1
+
+input
+"commitment"
+output
+m - 3
+t - 2
+c - 1
+e - 1
+i - 1
+n - 1
+o - 1
 """

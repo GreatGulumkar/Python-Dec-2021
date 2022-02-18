@@ -105,7 +105,7 @@ print()
 # Using variable length argument, we can call a function with as many argument as possible.
 
 
-def p(a, *z):  # *variable_name is a variable argument, this is a tuple.
+def p(a, *z):  # *argument_name is a variable argument, this is a tuple.
     print(a)
     for i in z:
         print(i)
