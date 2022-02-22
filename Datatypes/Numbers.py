@@ -16,7 +16,7 @@ Datatypes
 5.tuple
 6.sets
 7.dictionary 
-8.maps
+
 
 
 There are not set fix sizes of the datatypes in python
