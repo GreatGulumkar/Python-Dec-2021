@@ -17,6 +17,5 @@ name1 = int(input("Enter your name:"))
 print(name1)
 print(type(name1))
 
-name2 = raw_input()
 
 print("Thank you!")

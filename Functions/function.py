@@ -131,3 +131,5 @@ def add():
 q, w = add()
 
 print(q, w)
+
+print(type(add))
