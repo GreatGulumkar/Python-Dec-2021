@@ -66,4 +66,14 @@ e - 1
 i - 1
 n - 1
 o - 1
+
+#######################
+
+create a class for a car
+    class 
+    objects
+    constructors
+    class variables
+    instance variables
+    class documentations
 """
