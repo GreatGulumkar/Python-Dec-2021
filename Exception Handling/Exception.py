@@ -122,7 +122,7 @@ try:
     marks = 10
 
     if marks < 50:
-        raise  # Exception("Fail")
+        raise Exception("Fail")
     else:
         print("Congrats")
 
