@@ -55,6 +55,9 @@ a+ append plus                    append and read                       keep pre
 
 ab+ append plus binary            append and read binary                keep previous data                  end of the file                   True
 
+
+Default mode of opening file is read or read binary depending on the type of file.
+
 """
 
 
