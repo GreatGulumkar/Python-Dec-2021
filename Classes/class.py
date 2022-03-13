@@ -29,7 +29,7 @@ class myFirstClass:
 
 c1 = myFirstClass()  # c1 object created
 print(type(c1))  # <class '__main__.myFirstClass'>
-print(c1.a)
+print(c1.a)  # '.' is called as dot operator
 
 
 i = int()

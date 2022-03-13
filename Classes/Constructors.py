@@ -31,7 +31,7 @@ class myStudentClass:
     in Python"""
 
     # class variables
-    std_count = []
+    std_count = 0
 
     def __init__(self):  # self is used to access instance variable, in classes, first arg of a function is
         # is always self.
@@ -39,14 +39,26 @@ class myStudentClass:
         self.name = ''
         self.roll = -1
         self.marks = -1
+        print("Hello")
 
         # we dont need self with class variables, but we need class name.
-        myStudentClass.std_count.append(1)
+        myStudentClass.std_count += 1
 
     '''__init__(s1):   #self is replaced my object/instance name
         s1.name =''
         s1.roll =-1
         s1.marks =-1'''
+
+    # multiple constructors are not allowed in python
+    # the last constructor defined will be the final constructor.
+    """
+    def __init__(self, n, r, m):  # Paramiterized constructor
+        self.name = n
+        self.roll = r
+        self.marks = m
+        # we dont need self with class variables, but we need class name.
+        myStudentClass.std_count += 1
+    """
 
 
 s1 = myStudentClass()  # we dont need to mention self while calling a function.
@@ -57,5 +69,11 @@ print(myStudentClass.std_count, id(myStudentClass.std_count))
 s2 = myStudentClass()
 print(s2.name, s2.roll, s2.marks, s2.std_count)
 
+print(myStudentClass.std_count, id(myStudentClass.std_count))
+
+"""
+s3 = myStudentClass("John", 5, 95)
+print(s3.name, s3.roll, s3.marks, s3.std_count)
 
 print(myStudentClass.std_count, id(myStudentClass.std_count))
+"""
