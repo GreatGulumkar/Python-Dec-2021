@@ -20,6 +20,8 @@ re.match(pattern, string, flags = 0)
 
 import re
 
+
+"""
 # print(dir(re))
 
 ####Match#####
@@ -46,3 +48,22 @@ if a:
     print("valid")
 else:
     print("Invalid")
+"""
+
+
+data = "J1ck's friend is John. John lives in pune. John is an engineer. John likes programming"
+
+# Search will look for pattern in the whole string. and create the object for the 1st match.
+d = re.search(r'J[a-z]{3}', data)
+
+print(d)
+
+"""
+^   => not
+|   = or
+\d  => 0-9
+\D  => ^-9
+\s  => whitespace characters - \t, \s \n 
+\S  => Not whitespaces
+
+"""
