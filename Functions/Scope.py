@@ -1,7 +1,7 @@
 """
 Scope 
 
-Scope is of avariable. It defines the reach or accessability of the variable.
+Scope is of a variable. It defines the reach or accessability of the variable.
 
 """
 
